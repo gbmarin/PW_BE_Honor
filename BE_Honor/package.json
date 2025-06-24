@@ -1,0 +1,22 @@
+{
+  "name": "pw_honor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev:api": "ENV=dev npx playwright test --project=api",
+    "test:qa:api": "ENV=qa npx playwright test --project=api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.1.0",
+    "latest-version": "^9.0.0"
+  }
+}
